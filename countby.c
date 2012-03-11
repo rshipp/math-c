@@ -11,6 +11,10 @@ int main(int argc, char *argv[]) {
     return 1;
   }
   int x = atoi(argv[1]); // this must be after the if, or it will segv when argc < 2
+  if (x == 0) {
+    printf("attempting to count by 0 will lead to an infinite loop!\n");
+    return 1;
+  }
   for(n = 0; n <= 100; n += x)
     printf("%d ", n);
   printf("\n");
