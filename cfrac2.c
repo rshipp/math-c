@@ -6,6 +6,7 @@
  */
 
 #include <stdio.h>
+#include "maths.h"
 
 int main(int argc, char *argv[]) {
   int el = 0, atoi(); /* el = errorlevel */
@@ -24,16 +25,6 @@ int main(int argc, char *argv[]) {
     usage();
   }
   return el;
-}
-
-double cfrac(int a, int n) {  /* Feel free to use this function elsewhere if you need it. */
-  int k = 1;
-  double c = a + 1.000 / a;  //This has got to be wrong. I'll look up the formula and see how I can make this better.
-  c = a + 1.000 / c;
-  while(++k < n-1) {
-    c = a + 1.000 / c;
-  }
-  return c;
 }
 
 void noargs() {
