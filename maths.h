@@ -16,9 +16,9 @@ void countby(int x, int e) {
  */
 double cfrac(int a, int n) { 
   int k = 1;
-  double c = a + 1.000 / a; // This has got to be wrong. 
-  c = a + 1.000 / c;        // I'll look up the formula and see how 
-  while(++k < n-1) {        // I can make this better. 
+  double c = a + 1.000 / a; /* This has got to be wrong. */
+  c = a + 1.000 / c;        /* I'll look up the formula and see how */
+  while(++k < n-1) {        /* I can make this better. */
     c = a + 1.000 / c;
   }
   return c;
