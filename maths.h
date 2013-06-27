@@ -9,8 +9,9 @@
 void countby(int x, int e) {
     int n;
 
-    for(n = 0; n <= e; n += x)
+    for(n = 0; n <= e; n += x) {
         printf("%d ", n);
+    }
     printf("\n");
 
     return;
