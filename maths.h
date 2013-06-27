@@ -1,5 +1,6 @@
 /* maths.h
  * some arbitrary math functions
+ * pedantically perfect, in OTB with 4 spaces
  */
 
 #include <stdio.h>
