@@ -1,4 +1,6 @@
-Just a few simple math-related C programs and functions.
+Just a few simple math-related C and C++ programs and functions.
+These are written extremely pedantically in either Allman or OTB
+styles, with 4-space indentation.
 
 
 # Benchmarks for the factorial functions:
