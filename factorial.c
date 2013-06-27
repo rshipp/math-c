@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
     printf("for: %d\n", factorial_f(atoi(argv[1])));
   } else {
     printf("usage: %s integer\n", argv[0]);
-    printf("where 0 < integer < 12\n");
+    printf("where 0 < integer <= 12\n");
   }
   
   return 0;
