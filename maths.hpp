@@ -33,7 +33,7 @@ double cfrac(int a, int n)
 }
 
 // two implementations of a factorial function 
-// inaccurate with 0 > n > 12 because of the int declarations
+// accurate only with 0 < n < 12
 int factorial_r(int n)
 {
     if (n == 1)
