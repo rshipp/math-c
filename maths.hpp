@@ -1,6 +1,7 @@
 // maths.hpp
 // some arbitrary math functions
 // converted from C to C++
+// pedantically perfect, in Allman with 4 spaces
 
 #include <iostream>
 using namespace std;
